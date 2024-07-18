@@ -1,2 +1,2 @@
 # GAutoMRI
-Federated Neural Architecture Framework for Accelerating MR Reconstruction
+Generalizable Reconstruction for Accelerating MR Imaging via Federated Learning with Neural Architecture Search
