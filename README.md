@@ -13,7 +13,7 @@ Generalizable Reconstruction for Accelerating MR Imaging via Federated Learning 
 ![image](/assets/Out-of-Distribution.png)
 
 - Ablation study
-<img src="/assets/Ablation.jpeg" alt="Description" width="300" height="200">
+<img src="/assets/Ablation.jpeg" alt="Description" width="500">
 
 ![image](/assets/Ablation.jpeg)
 
