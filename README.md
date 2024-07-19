@@ -1,11 +1,7 @@
 # GAutoMRI
 
----
-
 Generalizable Reconstruction for Accelerating MR Imaging via Federated Learning with Neural Architecture Search
 ![image](/assets/GAutoMRI.png)
-
----
 
 ## Main Results
 
@@ -15,10 +11,6 @@ Generalizable Reconstruction for Accelerating MR Imaging via Federated Learning 
 - Out-of-Distribution
 - ![image](/assets/Out-of-Distribution.png)
 
----
-
 ### Searching Phase
-
----
 
 ### Training Phase
