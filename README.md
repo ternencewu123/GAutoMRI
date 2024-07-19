@@ -8,10 +8,8 @@ Generalizable Reconstruction for Accelerating MR Imaging via Federated Learning 
 - In-Distribution
 <img src="/assets/In-Distribution.png" alt="Description" width="600">
 
-![image](/assets/In-Distribution.png)
-
 - Out-of-Distribution
-- <img src="/assets/Out-of-Distribution.png" alt="Description" width="600">
+<img src="/assets/Out-of-Distribution.png" alt="Description" width="600">
 
 - Ablation study
 <img src="/assets/Ablation.jpeg" alt="Description" width="500">
