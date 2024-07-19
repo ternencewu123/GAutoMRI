@@ -6,12 +6,15 @@ Generalizable Reconstruction for Accelerating MR Imaging via Federated Learning 
 ## Main Results
 
 - In-Distribution
+
 ![image](/assets/In-Distribution.png)
 
 - Out-of-Distribution
 ![image](/assets/Out-of-Distribution.png)
 
--Ablation study
+- Ablation study
+<img src="/assets/Ablation.jpeg" alt="Description" width="300" height="200">
+
 ![image](/assets/Ablation.jpeg)
 
 ## Searching Phase
