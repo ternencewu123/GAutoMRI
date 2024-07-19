@@ -9,8 +9,8 @@ Generalizable Reconstruction for Accelerating MR Imaging via Federated Learning 
 ![image](/assets/In-Distribution.png)
 
 - Out-of-Distribution
-- ![image](/assets/Out-of-Distribution.png)
+![image](/assets/Out-of-Distribution.png)
 
-### Searching Phase
+## Searching Phase
 
-### Training Phase
+## Training Phase
