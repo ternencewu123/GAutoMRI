@@ -16,12 +16,12 @@ Generalizable Reconstruction for Accelerating MR Imaging via Federated Learning 
 
 ## Searching Phase
 
-"""
-python search.py --dataset fastmri --data-path /path/to/fastmri --output-dir /path/to/output --num-epochs 100 --num-classes 10 --num-samples 10 --num-architectures 10 --num-workers 4
-"""
+```python
+python search.py
+```
 
 ## Training Phase
 
-"""
-python train.py --dataset fastmri --data-path /path/to/fastmri --output-dir /path/to/output --num-epochs 100 --num-classes 10 --num-samples 10 --num-architectures 10 --num-workers 4
-"""
+```python
+python train.py
+```
