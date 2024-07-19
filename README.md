@@ -25,3 +25,13 @@ python search.py
 ```python
 python train.py
 ```
+
+## Acknowledgements
+
+we would like to thank the authors of the following repositories for their contributions to the community: [NAS-for-CSMRI](https://github.com/yjump/NAS-for-CSMRI)
+
+## Citation
+
+```bibtex
+
+```
