@@ -69,25 +69,6 @@ def ssim_slice(gt, pred, maxval=None):
     return SSIM / batch_size
 
 
-def vif_slice(gt, pred):
-    """
-    Compute Visual information quality
-    :param gt:
-    :param pred:
-    :return:
-    """
-    assert type(gt) == type(pred)
-    if type(pred) is torch.Tensor:
-        gt, pred = gt.detach().cpu().numpy(), pred.detach().cpu().numpy()
-    gt, pred = np.abs(gt), np.abs(pred)
-    batch_size = gt.shape[0]
-    VIF = 0.0
-    for i in range(batch_size):
-        VIF += compare_vifp(gt[i], pred[i])
-
-    return VIF / batch_size
-
-
 def save_csv(datas, columns, url):
     """
     save result to csv
