@@ -8,27 +8,6 @@ clients = ['fastmri', 'cc359', 'siat']
 
 def aggregate_weight(server_model, clients, aggregation_weights):
     update_state = OrderedDict()
-    with torch.no_grad():
-        # aggregation
-        for k, client in enumerate(clients):
-            local_state = client.state_dict()
-            for key in server_model.state_dict().keys():
-                if k == 0:
-                    update_state[key] = local_state[key] * aggregation_weights[k]
-                else:
-                    update_state[key] += local_state[key] * aggregation_weights[k]
-        server_model.load_state_dict(update_state)
-
-        # distribute
-        for key in server_model.state_dict().keys():
-            for k, client in enumerate(clients):
-                client.state_dict()[key].data.copy_(server_model.state_dict()[key])
-
-    return server_model, clients
-
-
-def aggregate_weight1(server_model, clients, aggregation_weights):
-    update_state = OrderedDict()
     # aggregation
     for k, client in enumerate(clients):
         local_state = client.state_dict()
