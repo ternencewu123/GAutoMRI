@@ -34,5 +34,14 @@ we would like to thank the authors of the following repositories for their contr
 ## Citation
 
 ```bibtex
-
+@ARTICLE{10606250,
+  author={Wu, Ruoyou and Li, Cheng and Zou, Juan and Liu, Xinfeng and Zheng, Hairong and Wang, Shanshan},
+  journal={IEEE Transactions on Medical Imaging}, 
+  title={Generalizable Reconstruction for Accelerating MR Imaging via Federated Learning with Neural Architecture Search}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Image reconstruction;Federated learning;Computer architecture;Imaging;Training;Adaptation models;Data models;Magnetic resonance imaging (MRI);neural architecture search (NAS);federated learning;fairness},
+  doi={10.1109/TMI.2024.3432388}}
 ```
