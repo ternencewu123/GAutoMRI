@@ -42,6 +42,5 @@ we would like to thank the authors of the following repositories for their contr
   volume={},
   number={},
   pages={1-1},
-  keywords={Image reconstruction;Federated learning;Computer architecture;Imaging;Training;Adaptation models;Data models;Magnetic resonance imaging (MRI);neural architecture search (NAS);federated learning;fairness},
   doi={10.1109/TMI.2024.3432388}}
 ```
